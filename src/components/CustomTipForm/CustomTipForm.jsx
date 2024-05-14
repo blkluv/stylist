@@ -25,7 +25,7 @@ const CustomTipForm = ({ setTip, showInputForm, setShowInputForm }) => {
         <FormWrapper autoComplete="off">
           <FlexContainerAlignEnd>
             <InputContainer>
-              <InputLabel>Custom CA$</InputLabel>
+              <InputLabel>Custom $</InputLabel>
               <Input
                 name="tip"
                 type="number"

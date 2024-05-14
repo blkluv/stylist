@@ -78,7 +78,7 @@ const PaymentForm = () => {
 
             <FlexContainer>
               <InputContainer>
-                <InputLabel>Amount CA$</InputLabel>
+                <InputLabel>Amount $</InputLabel>
                 <Input
                   id="amount"
                   name="amount"

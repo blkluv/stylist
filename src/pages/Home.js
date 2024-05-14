@@ -67,9 +67,9 @@ export default function Home() {
               To raise the quality of service in the hair industry Arvrtise
               created a new way to book online and communicate with stylists.
               Arvrtise <a href=" https://discord.com/servers/hair-1188100125705375806" title="Hair Products" target="_blank" rel="noopener">Hair</a>
-              Discord is a premium subscription for everything
-              hair including booking, CRM, Podcast, Live shows and classes, and
-              Hairverse live streaming events.
+               Discord is a premium subscription for everything hair including 
+              booking, CRM, Podcast, Live shows and classes, and Hairverse live 
+              streaming events in one location.
             </Text>
             <Button onClick={() => navigate('/booking/service')}>
               Online-Booking

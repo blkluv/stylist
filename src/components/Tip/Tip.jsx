@@ -81,7 +81,7 @@ export default function Tip() {
             active={selectedTipPercentage === tip ? tip : null}
           >
             <p>{tip}%</p>
-            {selectedTipPercentage === tip && <Price>CA$ {tip}</Price>}
+            {selectedTipPercentage === tip && <Price>$ {tip}</Price>}
           </TipsItem>
         ))}
         <TipsItem
@@ -89,7 +89,7 @@ export default function Tip() {
           active={customTip === 'custom' ? 'custom' : null}
         >
           <p>Custom</p>
-          {tip !== 0 && customTip && <Price>CA$ {tip}</Price>}
+          {tip !== 0 && customTip && <Price>$ {tip}</Price>}
         </TipsItem>
       </TipsContainer>
 
@@ -105,19 +105,19 @@ export default function Tip() {
         <tbody>
           <Row>
             <TableCell>Amount due</TableCell>
-            <TableCell>CA${amount}</TableCell>
+            <TableCell>${amount}</TableCell>
           </Row>
           <Row>
             <TableCell>Tips</TableCell>
-            <TableCell>CA${tip}</TableCell>
+            <TableCell>${tip}</TableCell>
           </Row>
           <Row>
             <TableCell>Taxes & Fees</TableCell>
-            <TableCell>CA${taxes}</TableCell>
+            <TableCell>${taxes}</TableCell>
           </Row>
           <LastRow>
             <TableCell>Total</TableCell>
-            <TableCell>CA${total}</TableCell>
+            <TableCell>${total}</TableCell>
           </LastRow>
         </tbody>
       </SummaryTable>

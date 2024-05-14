@@ -85,16 +85,16 @@ const CheckoutForm = ({ appointmentInfo }) => {
           <PaymentDivider>
             <PriceContainer>
               <ServiceText>Subtotal</ServiceText>
-              <ServiceText>CA${price}</ServiceText>
+              <ServiceText>${price}</ServiceText>
             </PriceContainer>
             <PriceContainer>
               <ServiceText>Tax</ServiceText>
-              <ServiceText>CA${tax}</ServiceText>
+              <ServiceText>${tax}</ServiceText>
             </PriceContainer>
           </PaymentDivider>
           <PriceContainer>
             <ServiceTitle>Total</ServiceTitle>
-            <p>CA${totalPrice}</p>
+            <p>${totalPrice}</p>
           </PriceContainer>
         </PaymentContainer>
         <Container>

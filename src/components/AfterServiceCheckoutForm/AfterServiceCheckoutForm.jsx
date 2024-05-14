@@ -77,20 +77,20 @@ const AfterServiceCheckoutForm = () => {
           <PaymentDivider>
             <PriceContainer>
               <ServiceText>Subtotal</ServiceText>
-              <ServiceText>CA${subtotal}</ServiceText>
+              <ServiceText>${subtotal}</ServiceText>
             </PriceContainer>
             <PriceContainer>
               <ServiceText>Tips</ServiceText>
-              <ServiceText>CA${tip}</ServiceText>
+              <ServiceText>${tip}</ServiceText>
             </PriceContainer>
             <PriceContainer>
               <ServiceText>Taxes & Fees</ServiceText>
-              <ServiceText>CA${taxes}</ServiceText>
+              <ServiceText>${taxes}</ServiceText>
             </PriceContainer>
           </PaymentDivider>
           <PriceContainer>
             <ServiceTitle>Total</ServiceTitle>
-            <p>CA${total}</p>
+            <p>${total}</p>
           </PriceContainer>
         </PaymentContainer>
         <Container>

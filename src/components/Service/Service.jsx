@@ -47,7 +47,7 @@ export default function Service() {
           <p>Small Tattoo</p>
           <Time>60 min</Time>
           <p>
-            Deposit: <Price>CA$100</Price>
+            Deposit: <Price>$100</Price>
           </p>
         </ServiceItem>
         <ServiceItem
@@ -57,7 +57,7 @@ export default function Service() {
           <p>Large Tattoo</p>
           <Time>120 min</Time>
           <p>
-            Deposit: <Price>CA$120</Price>
+            Deposit: <Price>$120</Price>
           </p>
         </ServiceItem>
         <ServiceItem
@@ -67,7 +67,7 @@ export default function Service() {
           <p>Permanent Makeup</p>
           <Time>60 min</Time>
           <p>
-            Deposit: <Price>CA$100</Price>
+            Deposit: <Price>$100</Price>
           </p>
         </ServiceItem>
         <ServiceItem
@@ -77,7 +77,7 @@ export default function Service() {
           <p>Touch-up</p>
           <Time>30 min</Time>
           <p>
-            Deposit: <Price>CA$20</Price>
+            Deposit: <Price>$20</Price>
           </p>
         </ServiceItem>
       </FlexContainer>

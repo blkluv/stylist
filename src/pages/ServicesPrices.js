@@ -46,8 +46,8 @@ export default function Services() {
             <CardFooter>
               <Description>
                 <CardTitle>Small Tattoo</CardTitle>
-                <p>Price range: CA$120-250</p>
-                <p>Deposit: CA$100</p>
+                <p>Price range: $120-250</p>
+                <p>Deposit: $100</p>
                 <p>Size: up to 10 cm</p>
                 <p>Duration: 1.2h</p>
               </Description>
@@ -95,8 +95,8 @@ export default function Services() {
             <CardFooter>
               <Description>
                 <CardTitle>Large Tattoo</CardTitle>
-                <p>Price: from CA$250 </p>
-                <p>Deposit: CA$120</p>
+                <p>Price: from $250 </p>
+                <p>Deposit: $120</p>
                 <p>Size: more than 10 cm and detailed</p>
                 <p>Duration: 3h</p>
               </Description>
@@ -143,8 +143,8 @@ export default function Services() {
             <CardFooter>
               <Description>
                 <CardTitle>Touch-up</CardTitle>
-                <p>Price: from CA$20 </p>
-                <p>Deposit: CA$20</p>
+                <p>Price: from $20 </p>
+                <p>Deposit: $20</p>
                 <p>Duration: 30min</p>
               </Description>
               <Button
@@ -188,8 +188,8 @@ export default function Services() {
             <CardFooter>
               <Description>
                 <CardTitle>Permanent</CardTitle>
-                <p>Deposit: CA$100</p>
-                <p>Price is fixed CA$300</p>
+                <p>Deposit: $100</p>
+                <p>Price is fixed $300</p>
                 <p>Duration: 1h-3h</p>
               </Description>
               <Button

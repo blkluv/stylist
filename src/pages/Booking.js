@@ -36,8 +36,8 @@ export default function Booking() {
           payment serves as a non-refundable deposit, covering preparatory
           expenses for your appointment. This deposit ensures that costs are
           covered in case of a cancellation. For Small Tattoo and Permanent
-          services, a deposit of CA$100 is required. For Large Tattoo services,
-          the deposit amount is CA$120. All deposits will be deducted from the
+          services, a deposit of $100 is required. For Large Tattoo services,
+          the deposit amount is $120. All deposits will be deducted from the
           final cost of the service. A minimum of 48 hours' notice is necessary
           to cancel or reschedule a tattoo or cosmetic appointment; otherwise, a
           new deposit might be required.
