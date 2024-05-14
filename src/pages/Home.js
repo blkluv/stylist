@@ -36,16 +36,16 @@ export default function Home() {
           property="og:description"
           content="Your favorite Tattoo and Permanent Makeup Artist in Toronto"
         />
-        <title>Ivenko Alina</title>
+        <title>BOOK</title>
       </Helmet>
 
       <HeroSection>
         <HeroContainer>
-          <Suptitle>Your favorite tattoo artist</Suptitle>
-          <MainTitle>Ivenko Alina</MainTitle>
+          <Suptitle>VIP BOOKING</Suptitle>
+          <MainTitle>BOOK A Ⓜ️ASTER</MainTitle>
           <HeroDescription>
-            Embrace the art of transformation. Don't hesitate, schedule your
-            tattoo appointment right now.
+            Book a vetted Hair Master near you, communicate in one open Hair
+            Discord city channel to ensure quality customer service.
           </HeroDescription>
         </HeroContainer>
       </HeroSection>
@@ -61,15 +61,15 @@ export default function Home() {
           </List>
 
           <Description>
-            <Suptitle primary={'primary'}>About me</Suptitle>
-            <Title>Your favorite tattoo artist</Title>
+            <Suptitle primary={'primary'}>MASTER STYLISTS</Suptitle>
+            <Title>Verified Hair Master Stylist</Title>
             <Text primary={'primary'} main={'main'}>
-              You have chosen a tattoo artist who goes beyond the ordinary. By
-              coming here, you are stepping into a world of transformation and
-              artistic magic. I am about energy, change and a new way. On this
-              site you can explore my portfolio and schedule the most convenient
-              time for our meeting. Welcome! With each step, you are drawing
-              closer to embracing a new reality tailored specifically for you.
+              To raise the quality of service in the hair industry Arvrtise
+              created a new way to book online and communicate with stylists.
+              Arvrtise <a href=" https://discord.com/servers/hair-1188100125705375806" title="Hair Products" target="_blank" rel="noopener">Hair</a>
+              Discord is a premium subscription for everything
+              hair including booking, CRM, Podcast, Live shows and classes, and
+              Hairverse live streaming events.
             </Text>
             <Button onClick={() => navigate('/booking/service')}>
               Online-Booking
